@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>View Slides</title>
+</head>
+<body>
+<h1>View Slides</h1>
+<ul>
+{% for slide in slides %}
+<li><a href="/view_slide/{{ slide }}">{{ slide }}</a></li>
+{% endfor %}
+</ul>
+</body>
+</html>
+
+
